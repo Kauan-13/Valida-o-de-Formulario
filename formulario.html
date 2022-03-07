@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios em Java Script</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="cabecalho">
+        <img src="imgs/logoafl.png" alt="">
+        <h1 id="title">EEEP Amélia</h1>
+    </div>
+    <form>                                                  
+        <!-- onsubmit="pegarDados()" -->
+        <fieldset>
+            <legend>Login</legend>
+            <p>Campo de Nome: 
+                <input type="text" id="texto"></p>
+            <p>Campo de Telefone: 
+                <input type="tel" id="fone"></p>
+            <p>Campo de Email 
+                <input type="email" id="mail"></p>
+            <p>Campo de Senha: 
+                <input type="password" id="senha"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Cursos de Linguagens</legend>
+                <p>
+                <label for="info">Inglês</label>
+                <input type="checkbox" id="info">
+                <p>
+                <label for="adm">Espanhol</label>
+                <input type="checkbox" id="adm">
+                <p>
+                <label for="enf">Francês</label>
+                <input type="checkbox" id="enf">
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Curso</legend>
+            <p>
+            <label for="info2">Informática</label>
+            <input type="radio" name="meucurso" id="info2">
+            <p>
+            <label for="adm2">Administração</label>
+            <input type="radio" name="meucurso" id="adm2">
+            <p>
+            <label for="enf2">Enfermagem</label>
+            <input type="radio" name="meucurso" id="enf2">
+        </fieldset>
+        <fieldset>
+            <legend>Campo Oculto</legend>
+            <input type="hidden" name="oculto" id="oculto" value="9">
+        </fieldset>
+        <fieldset>
+            <legend>Número da Sorte</legend>
+            <input type="number" name="num" id="num">
+        </fieldset>
+        <fieldset>
+            <legend>Data de Nascimento</legend>
+            <input type="date" name="data" id="data">
+        </fieldset>
+        <fieldset>
+            <legend>Hora</legend>
+            <input type="time" name="hora" id="hora">
+        </fieldset>
+        <fieldset>
+            <legend>Faixa de Valor</legend>
+            <input type="range" id="range" min="10" max="100">
+        </fieldset>
+        <fieldset>
+            <legend>Cor Favorita</legend>
+            <label for="priFaixa">Cores</label>
+            <select name="priFaixa" id="priFaixa">
+                <option value="">Selecione a Cor</option>
+                <option value="Preto">Preto</option>
+                <option value="Marrom">Marrom</option>
+                <option value="Vermelho">Vermelho</option>
+                <option value="Laranja">Laranja</option>
+            </select>
+        </fieldset>
+        <p><button type="reset">RESETAR</button></p>
+        <p><button type="button" onclick="pegarDados()">Submeter Form</button></p>
+    </form>
+<hr>
+<div id="resumo" class="hide">
+<div class="esconder">RESUMO</div>
+    <div class="re" id="camponame"></div>
+    <div class="re" id="campotel"></div>
+    <div class="re" id="campomail"></div>
+    <div class="re" id="camposenha"></div>
+    <div class="re" id="campoinfo"></div>
+    <div class="re" id="campoadm"></div>
+    <div class="re" id="campoenf"></div>
+    <div class="re" id="camporadio"></div>
+    <div class="re" id="campooculto"></div>
+    <div class="re" id="camponum"></div>
+    <div class="re" id="campodata"></div>
+    <div class="re" id="campodaora"></div>
+    <div class="re" id="camporange"></div>
+    <div class="re" id="campofaixa"></div>
+</div>
+    
+    <!-- <script type="text/javascript">
+        function pegarDados(){
+            alert("ocê foi raquiado hehehehe")
+        }
+
+    </script> -->
+    <script src="script.js"></script>
+</body>
+</html>

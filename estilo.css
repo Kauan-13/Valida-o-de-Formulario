@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+#cabecalho{
+    background-color: hsl(180, 2%, 40%);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-bottom: -20px;
+}
+
+#title{
+    padding: 20px;
+    font-size: 50px;
+}
+
+img{
+    height: 80px;
+    width: 150px;
+    padding: 10px;
+}
+
+.esconder{
+    display: none;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+body{
+    background-color: white;
+} 
+
+form{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+legend{
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+
+fieldset{
+    margin: 20px;
+}
+
+input{
+    margin: 10px;
+}
+
+button{
+    color: azure;
+    height: 50px;
+    width: 200px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+    color: black;
+    font-size: 20px;
+}
+
+hr{
+    margin-top: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resumo{
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.re{
+    font-size: 26px;
+    padding-left: 10px;
+}
